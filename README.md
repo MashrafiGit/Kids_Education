@@ -115,6 +115,6 @@ This project was created **purely for practice purposes** to:
 
 ---
 
-✅ **Practice Project**
-📌 **Frontend Only**
-💡 **Learning-focused Implementation**
+✅ **Practice Project**<br/>
+📌 **Frontend Only**<br/>
+💡 **Learning-focused Implementation**<br/>
