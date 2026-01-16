@@ -1,11 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kids Education</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kids School</title>
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo-container">
+          <img
+            width="62px"
+            height="62px"
+            src="assets/logo.png"
+            alt="Kids School Logo"
+            class="logo-img"
+          />
+          <h3 class="hidden-mobile">SCHOOL</h3>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+        <label for="menu-toggle" class="menu-icon">
+          <span class="open-icon">&#9776;</span>
+          <span class="close-icon">&#10006;</span>
+        </label>
+
+        <ul class="nav-list">
+          <li class="nav-item-home">Home</li>
+          <li class="nav-item-about">About</li>
+          <li class="nav-item-facilities">Facilities</li>
+          <li class="nav-item-admission">Admission</li>
+        </ul>
+        <button class="btn-contact hidden-mobile font-quicksand">
+          Contact
+        </button>
+      </nav>
+      <!-- nav section end -->
+    </header>
+
+    <main>
+      <!-- hero section start -->
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              <span class="text-highlight-orange">Empowering</span><br />
+              students from small <br />
+              age <span class="text-highlight-blue">towards vision</span>
+            </h1>
+
+            <p class="hero-description">
+              With the courage, Confidence, Creativity and Compassion to make
+              their Unique Contribution in a Diverse and Dynamic World.
+            </p>
+
+            <button class="btn-enroll font-quicksand">Enroll Now</button>
+          </div>
+
+          <div>
+            <img src="assets/hero-kids.png" alt="Happy kids at school banner" />
+          </div>
+        </div>
+      </section>
+      <!-- hero section end -->
+
+      <!-- curriculum section start -->
+      <section class="section-curriculum">
+        <div>
+          <h2 class="section-title">Standard Curriculum</h2>
+        </div>
+        <div class="curriculum-grid">
+          <div class="card-kinder">
+            <img
+              src="assets/kinder.png"
+              alt="Kindergarten Illustration"
+              width="125.41px"
+              height="126.1px"
+              class="card-icon-kinder"
+            />
+            <h3 class="card-title-kinder">Kinder (3-6)Years</h3>
+            <p class="card-text">
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mu sdis parturient
+            </p>
+            <p class="btn-read-more-kinder">Read More</p>
+          </div>
+
+          <div class="card-elementary">
+            <img
+              src="assets/elementary.png"
+              alt="Elementary School Illustration"
+              width="125.41px"
+              height="126.1px"
+              class="card-icon-elementary"
+            />
+            <h3 class="card-title-elementary">Elementary School</h3>
+            <p class="card-text">
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mu sdis parturient
+            </p>
+            <p class="btn-read-more-elementary">Read More</p>
+          </div>
+
+          <div class="card-middle">
+            <img
+              src="assets/middle.png"
+              alt="Middle School Illustration"
+              width="125.41px"
+              height="126.1px"
+              class="card-icon-middle"
+            />
+            <h3 class="card-title-middle">Middle (10-16) Years</h3>
+            <p class="card-text">
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mu sdis parturient
+            </p>
+            <p class="btn-read-more-middle">Read More</p>
+          </div>
+        </div>
+
+        <div class="slider-controls hidden-mobile">
+          <svg
+            width="60.000000"
+            height="60.000000"
+            viewBox="0 0 60 60"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <desc>Created with Pixso.</desc>
+            <defs />
+            <rect
+              id="prev-btn"
+              rx="29.500000"
+              width="59.000000"
+              height="59.000000"
+              transform="translate(0.500000 0.500000)"
+              fill="#FEA301"
+              fill-opacity="1.000000"
+            />
+            <path
+              id="icon-prev"
+              d="M33.37 19.1L24.28 28.25C23.85 28.67 23.85 29.37 24.28 29.79L33.37 38.93C33.84 39.35 34.54 39.35 34.96 38.93L36.04 37.85C36.46 37.43 36.46 36.73 36.04 36.26L28.82 29L36.04 21.78C36.46 21.31 36.46 20.6 36.04 20.18L34.96 19.1C34.54 18.68 33.84 18.68 33.37 19.1Z"
+              fill="#FFFFFF"
+              fill-opacity="1.000000"
+              fill-rule="evenodd"
+            />
+          </svg>
+
+          <svg
+            width="60.000000"
+            height="60.000000"
+            viewBox="0 0 60 60"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <desc>Created with Pixso.</desc>
+            <defs />
+            <rect
+              id="next-btn"
+              rx="29.500000"
+              width="59.000000"
+              height="59.000000"
+              transform="translate(0.500000 0.500000)"
+              fill="#FEA301"
+              fill-opacity="1.000000"
+            />
+            <path
+              id="icon-next"
+              d="M26.95 38.93L36.04 29.79C36.46 29.37 36.46 28.67 36.04 28.25L26.95 19.1C26.48 18.68 25.78 18.68 25.35 19.1L24.28 20.18C23.85 20.6 23.85 21.31 24.28 21.78L31.5 29L24.28 36.26C23.85 36.73 23.85 37.43 24.28 37.85L25.35 38.93C25.78 39.35 26.48 39.35 26.95 38.93Z"
+              fill="#FFFFFF"
+              fill-opacity="1.000000"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </section>
+      <!-- curriculum section end -->
+
+      <!-- stories section start -->
+      <section class="section-stories">
+        <div id="stories-container">
+          <h1 class="stories-title">Our Story</h1>
+
+          <div class="stories-grid">
+            <div class="story-card" id="story-card-1">
+              <img
+                class="story-img"
+                src="assets/story-1.png"
+                alt="Coloring training activity"
+              />
+              <div class="story-content">
+                <h4 class="badge-date">November 19, 2019</h4>
+                <h2>A fun toddler coloring training on classroom</h2>
+                <p>
+                  Beautiful branding for changes by Never Now in Australia.
+                  changes is a platform for open discussion in an inclusive and
+                  collaborative environment, providing the...
+                </p>
+              </div>
+            </div>
+
+            <div class="story-card" id="story-card-2">
+              <img
+                class="story-img"
+                src="assets/story-2.png"
+                alt="School environment"
+              />
+              <div class="story-content">
+                <h4 class="badge-date-alt1">November 19, 2019</h4>
+                <h3>Find out if a school fits the family’s needs</h3>
+              </div>
+            </div>
+
+            <div class="story-card" id="story-card-3">
+              <img
+                class="story-img"
+                src="assets/story-3.png"
+                alt="Math and literacy activities"
+              />
+              <div class="story-content">
+                <h4 class="badge-date badge-date-alt2">November 19, 2019</h4>
+                <h3>Summer math & literacy centres for kids</h3>
+              </div>
+            </div>
+
+            <div class="story-card" id="story-card-4">
+              <img
+                class="story-img"
+                src="assets/story-4.png"
+                alt="Teacher training sessions"
+              />
+              <div class="story-content">
+                <h4 class="badge-date badge-date-alt1">November 19, 2019</h4>
+                <h3>Classroom management techniques for new tutors</h3>
+              </div>
+            </div>
+
+            <div class="story-card" id="story-card-5">
+              <img
+                class="story-img"
+                src="assets/story-5.png"
+                alt="Conversation rhymes session"
+              />
+              <div class="story-content">
+                <h4 class="badge-date-alt3">July 19, 2019</h4>
+                <h3>Conversation rhymes improve kids listening</h3>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn-view-all">View All</button>
+        </div>
+      </section>
+      <!-- stories section end -->
+    </main>
+
+    <!-- footer start -->
+    <footer class="footer-container">
+      <div class="footer-info">
+        <div class="footer-logo-box">
+          <h2>Kids education</h2>
+        </div>
+
+        <p class="footer-desc">
+          Pizza ipsum dolor meat lovers buffalo. <br />
+          Deep dolor roll melted bacon Bianca <br />
+          pan bacon pineapple Aussie. Mayo rib <br />
+          sau Hawaiian meatball.
+        </p>
+      </div>
+
+      <div class="footer-links-section">
+        <h2>About School</h2>
+        <ul class="footer-links" id="footer-nav">
+          <li>Home</li>
+          <li>About</li>
+          <li>Facilities</li>
+          <li>Admission</li>
+        </ul>
+      </div>
+
+      <div class="footer-socials">
+        <h2>Keep In Touch</h2>
+        <div class="social-icons-wrapper">
+          <img src="assets/fb.png" alt="Facebook Icon" />
+          <img src="assets/dribble.png" alt="Dribbble Icon" />
+          <img src="assets/twitter.png" alt="Twitter Icon" />
+          <img src="assets/google+.png" alt="Google Plus Icon" />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
